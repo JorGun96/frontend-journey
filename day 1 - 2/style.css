@@ -1,0 +1,37 @@
+/*
+Fokus pada :
+font-family
+color
+background-color
+margin
+padding
+max-width
+*/
+
+body{
+    font-family: Poppins, sans-serif;
+
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    margin: auto;
+    max-width: 800px;
+}
+
+header{
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: grey;
+}
+
+section{
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: green;
+}
+
+footer{
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: grey;
+}
