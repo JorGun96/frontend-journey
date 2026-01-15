@@ -1,0 +1,72 @@
+/*
+Fokus pada :
+font-family
+color
+background-color
+margin
+padding
+max-width
+*/
+
+@media (max-width: 600px) {
+    .container{
+        padding: 10px;
+    }
+
+    header{
+        padding: 10px;
+        text-align: center;
+    }
+
+    .skills{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    section{
+        padding: 10px;
+    }
+}
+
+.container{
+    padding: 20px;
+    margin: auto;
+    max-width: 800px;
+}
+
+body{
+    font-family: Poppins, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;   
+}
+
+header{
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: grey;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+section{
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: green;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    list-style: none;
+    padding : 0;
+}
+
+footer{
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: grey;
+}
