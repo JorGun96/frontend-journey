@@ -7,3 +7,33 @@
     margin: auto;
     padding: 20px;
 }
+
+header{
+    background-color: aqua;
+    padding: 30px;
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+
+    display: flex;
+    gap: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+section{
+    margin-bottom: 40px;
+}
+
