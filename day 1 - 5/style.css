@@ -37,6 +37,7 @@ ul li a{
 
 ul li a:hover{
     text-decoration: underline;
+    color: #e0f2fe;
 }
 
 section{
@@ -62,7 +63,14 @@ body {
 h1{
     font-size: 24px;
     margin: 0;
+    font-weight: 600;
+}
 
+header h2{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f172a;
+    opacity: 0.9;
 
 }
 
@@ -75,6 +83,16 @@ h2{
 p{
     line-height: 1.6;
 
+}
+
+section h2{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+section p{
+    margin: 0;
 }
 
 .skills-list {
@@ -91,11 +109,12 @@ p{
     border-radius: 14px;
     font-size: 16px;
     font-weight: 500;
-    cursor: default;
+    cursor: pointer;
     transition: all 0.2s ease;
 }
 
 .skills-list li:hover{
     background-color: #0368a1;
     transform: translateY(-2px);
+
 }
