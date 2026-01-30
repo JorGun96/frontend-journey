@@ -1,3 +1,29 @@
+@media (max-width: 600px) {
+    header {
+        padding: 24px 16px;
+        gap: 16px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    header h2 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .skills-list {
+        justify-content: flex-start;
+    }
+
+    .skills-list li {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    
+}
+
 *{
     font-family: Poppins, sans-serif;
 }
